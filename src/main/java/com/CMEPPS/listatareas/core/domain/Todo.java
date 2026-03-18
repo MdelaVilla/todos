@@ -19,7 +19,7 @@ public class Todo {
 	private String userName;
 	private String description;
 	private Date targetDate;
-
+	private String short_description;
 	
 	
 	
@@ -56,6 +56,12 @@ public class Todo {
 	}
 	public void setTargetDate(Date targetDate) {
 		this.targetDate = targetDate;
+	}
+	public String getShort_description() {
+		return short_description;
+	}
+	public void setShort_description(String short_description) {
+		this.short_description = short_description;
 	}
 	
 	
